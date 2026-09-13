@@ -2,7 +2,9 @@
 .dart_tool/
 .packages
 .pub/
+.pub-cache/
 build/
+flutter_export_environment.sh
 .flutter-plugins
 .flutter-plugins-dependencies
 .flutter-versions
@@ -31,12 +33,17 @@ build/
 **/linux/flutter/generated_plugin_registrant.cc
 **/linux/flutter/generated_plugin_registrant.h
 
+# Web related
+web/.dart_tool/
+
 # VS Code related
 .vscode/
 
 # IntelliJ related
 .idea/
 *.iml
+*.ipr
+*.iws
 
 # System files
 .DS_Store
@@ -44,3 +51,4 @@ Thumbs.db
 
 # Optional
 pubspec.lock
+coverage/

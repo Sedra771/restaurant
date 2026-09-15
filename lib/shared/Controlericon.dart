@@ -17,6 +17,7 @@ class ControlerIcon1 extends StatelessWidget {
                                 margin: EdgeInsets.only(right: context.ScreenWidth * 0.02),
                                 padding: EdgeInsets.all(9),
                                 decoration: BoxDecoration(
+                                  // ignore: deprecated_member_use
                                   color: Color(0xD0C29144).withOpacity(0.1),
                                   borderRadius: BorderRadius.circular(16),
                                 ),

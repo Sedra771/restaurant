@@ -28,6 +28,7 @@ class _FavortB2State extends State<ControlerIcon2> {
                                 width: context.ScreenWidth * 0.38,
                                 margin: EdgeInsets.all(context.ScreenHeight * 0.01),
                                 decoration: BoxDecoration(
+                                  // ignore: deprecated_member_use
                                   color: Color(0xFFE49E34).withOpacity(0.1),
                                   borderRadius: BorderRadius.circular(20),
                                 ),

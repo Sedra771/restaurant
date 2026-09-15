@@ -27,6 +27,7 @@ class _ControlerIcon1State extends State<ControlerI3> {
         borderRadius: BorderRadius.circular(30),
         boxShadow: [
           BoxShadow(
+            // ignore: deprecated_member_use
             color: const Color.fromARGB(255, 0, 0, 0).withOpacity(0.5),
             spreadRadius: 2,
             blurRadius: 4,
